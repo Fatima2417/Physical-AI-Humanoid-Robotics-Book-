@@ -1,0 +1,50 @@
+.tip {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid #58d68d;
+  border-radius: var(--ifm-global-radius);
+  background-color: #eafaf1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] .tip {
+  background-color: #1e3d2d;
+  border-color: #58d68d;
+}
+
+.tip--helpful {
+  border-left: 4px solid #27ae60;
+  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
+}
+
+.tipTitle {
+  font-family: var(--ifm-font-family-headings);
+  font-weight: var(--ifm-heading-font-weight);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #27ae60;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+[data-theme='dark'] .tipTitle {
+  color: #58d68d;
+}
+
+.tipIcon {
+  font-size: 1.2rem;
+}
+
+.tipContent {
+  font-family: var(--ifm-font-family-base);
+  line-height: var(--ifm-line-height-base);
+}
+
+.tipContent p:first-child {
+  margin-top: 0;
+}
+
+.tipContent p:last-child {
+  margin-bottom: 0;
+}

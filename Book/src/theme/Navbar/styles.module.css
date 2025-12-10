@@ -1,0 +1,16 @@
+/* This file is intentionally left minimal as most navbar styling is handled via CSS custom properties */
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  background-color: var(--ifm-background-surface-color);
+  box-shadow: var(--ifm-global-shadow);
+}
+
+/* Add book-style chapter/page indicator to navbar */
+.navbarBrand {
+  font-family: var(--ifm-font-family-headings);
+  font-weight: var(--ifm-heading-font-weight);
+}
+
+.navbarItems {
+  gap: 1rem;
+}

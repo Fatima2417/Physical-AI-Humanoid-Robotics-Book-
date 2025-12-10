@@ -1,0 +1,61 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuItem {
+  border-radius: var(--ifm-global-radius);
+  transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.menuItem:hover {
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+/* Enhanced styling for educational book theme */
+.navLink {
+  padding: 0.5rem 1rem;
+  border-radius: var(--ifm-global-radius);
+  transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.navLink:hover {
+  background-color: var(--ifm-menu-color-background-active);
+  text-decoration: none;
+}
+
+.navLinkActive {
+  background-color: var(--ifm-menu-color-background-active);
+  font-weight: var(--ifm-font-weight-semibold);
+  border-left: 3px solid var(--ifm-color-primary);
+  padding-left: calc(1rem - 3px);
+}
+
+/* Category styling for educational content flow */
+.category {
+  padding: 0.5rem 1rem;
+  border-radius: var(--ifm-global-radius);
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+.category:hover {
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+/* Book-style chapter indicators */
+.chapterIndicator {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-background-color);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+}

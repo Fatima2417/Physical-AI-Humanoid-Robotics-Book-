@@ -1,0 +1,27 @@
+{
+  "id": "Module-4/whisper-integration",
+  "title": "Whisper Integration",
+  "description": "Learning Objectives",
+  "source": "@site/docs/Module-4/02_whisper-integration.md",
+  "sourceDirName": "Module-4",
+  "slug": "/Module-4/whisper-integration",
+  "permalink": "/docs/Module-4/whisper-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module-4/02_whisper-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vision-Language-Action Overview",
+    "permalink": "/docs/Module-4/vision-language-action-overview"
+  },
+  "next": {
+    "title": "LLM Cognitive Planning",
+    "permalink": "/docs/Module-4/llm-cognitive-planning"
+  }
+}

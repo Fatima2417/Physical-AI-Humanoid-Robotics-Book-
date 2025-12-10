@@ -1,0 +1,25 @@
+{
+  "id": "module4-vla/vla-evaluation-testing",
+  "title": "VLA Evaluation and Testing",
+  "description": "Chapter 16: Evaluation and Testing Methodologies",
+  "source": "@site/docs/module4-vla/16_vla-evaluation-testing.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/vla-evaluation-testing",
+  "permalink": "/docs/module4-vla/vla-evaluation-testing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/16_vla-evaluation-testing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA Deployment Considerations",
+    "permalink": "/docs/module4-vla/vla-deployment-considerations"
+  },
+  "next": {
+    "title": "VLA Summary and Conclusion",
+    "permalink": "/docs/module4-vla/vla-summary-conclusion"
+  }
+}

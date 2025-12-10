@@ -1,0 +1,27 @@
+{
+  "id": "module1-ros2/ros2-actions-and-parameters",
+  "title": "ROS 2 Actions and Parameters",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module1-ros2/03_ros2-actions-and-parameters.md",
+  "sourceDirName": "module1-ros2",
+  "slug": "/module1-ros2/ros2-actions-and-parameters",
+  "permalink": "/docs/module1-ros2/ros2-actions-and-parameters",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module1-ros2/03_ros2-actions-and-parameters.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Nodes, Topics, and Services",
+    "permalink": "/docs/module1-ros2/ros2-nodes-topics-services"
+  },
+  "next": {
+    "title": "ROS 2 Launch Files and Composition",
+    "permalink": "/docs/module1-ros2/ros2-launch-files-and-composition"
+  }
+}

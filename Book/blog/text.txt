@@ -1,0 +1,10 @@
+Insights From the Frontier of Physical AI
+This blog expands on the core themes of the book, offering continuous updates, deep dives, and practical explorations into embodied intelligence, humanoid robotics, and AI systems operating in the physical world.
+
+Applied Learning, Real Experiments
+Each post connects theory to implementation—covering ROS 2 techniques, Gazebo simulation tricks, Unity workflows, Isaac Sim experiments, and emerging Vision-Language-Action pipelines. Expect tutorials, architecture breakdowns, performance notes, and behind-the-scenes progress on the humanoid robotics ecosystem.
+
+Evolving With the Industry
+Physical AI is advancing rapidly. New frameworks, tools, models, and best practices appear every month. This blog keeps your knowledge current by analyzing updates across robotics, AI, simulation platforms, and embodied agents, ensuring you always move at the frontier.
+
+Stay tuned as we build, refine, and push the boundaries of what intelligent robotic systems can do—both in simulation and in the real world.

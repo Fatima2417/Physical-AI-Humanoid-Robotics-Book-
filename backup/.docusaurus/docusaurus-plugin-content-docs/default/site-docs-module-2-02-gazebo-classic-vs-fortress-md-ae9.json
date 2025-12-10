@@ -1,0 +1,27 @@
+{
+  "id": "Module-2/gazebo-classic-vs-fortress",
+  "title": "Gazebo Classic vs Gazebo Fortress/Harmonic",
+  "description": "Learning Objectives",
+  "source": "@site/docs/Module-2/02_gazebo-classic-vs-fortress.md",
+  "sourceDirName": "Module-2",
+  "slug": "/Module-2/gazebo-classic-vs-fortress",
+  "permalink": "/docs/Module-2/gazebo-classic-vs-fortress",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module-2/02_gazebo-classic-vs-fortress.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Simulation Environments Overview",
+    "permalink": "/docs/Module-2/simulation-environments-overview"
+  },
+  "next": {
+    "title": "Unity Robotics Hub Setup",
+    "permalink": "/docs/Module-2/unity-robotics-hub-setup"
+  }
+}

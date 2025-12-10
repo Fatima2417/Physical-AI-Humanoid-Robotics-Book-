@@ -1,0 +1,27 @@
+{
+  "id": "module4-vla/ros2-action-execution",
+  "title": "ROS 2 Action Execution",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4-vla/04_ros2-action-execution.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/ros2-action-execution",
+  "permalink": "/docs/module4-vla/ros2-action-execution",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/04_ros2-action-execution.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LLM Cognitive Planning",
+    "permalink": "/docs/module4-vla/llm-cognitive-planning"
+  },
+  "next": {
+    "title": "Sensor Integration with ROS 2",
+    "permalink": "/docs/module4-vla/sensor-integration-ros2"
+  }
+}

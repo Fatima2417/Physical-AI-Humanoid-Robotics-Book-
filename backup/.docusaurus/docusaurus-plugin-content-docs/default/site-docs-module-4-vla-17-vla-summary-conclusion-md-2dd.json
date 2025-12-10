@@ -1,0 +1,21 @@
+{
+  "id": "module4-vla/vla-summary-conclusion",
+  "title": "VLA Summary and Conclusion",
+  "description": "Chapter 17: Vision-Language-Action Systems - Complete Guide",
+  "source": "@site/docs/module4-vla/17_vla-summary-conclusion.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/vla-summary-conclusion",
+  "permalink": "/docs/module4-vla/vla-summary-conclusion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/17_vla-summary-conclusion.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA Evaluation and Testing",
+    "permalink": "/docs/module4-vla/vla-evaluation-testing"
+  }
+}

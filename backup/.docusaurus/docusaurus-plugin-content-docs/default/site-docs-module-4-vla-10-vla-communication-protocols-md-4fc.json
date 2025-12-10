@@ -1,0 +1,27 @@
+{
+  "id": "module4-vla/vla-communication-protocols",
+  "title": "VLA Communication Protocols",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4-vla/10_vla-communication-protocols.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/vla-communication-protocols",
+  "permalink": "/docs/module4-vla/vla-communication-protocols",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/10_vla-communication-protocols.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integration Patterns",
+    "permalink": "/docs/module4-vla/integration-patterns"
+  },
+  "next": {
+    "title": "Real-World Deployment",
+    "permalink": "/docs/module4-vla/real-world-deployment"
+  }
+}

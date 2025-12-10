@@ -1,0 +1,27 @@
+{
+  "id": "module4-vla/vla-applications-humanoids",
+  "title": "VLA Applications in Humanoid Robotics",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4-vla/12_vla-applications-humanoids.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/vla-applications-humanoids",
+  "permalink": "/docs/module4-vla/vla-applications-humanoids",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/12_vla-applications-humanoids.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Real-World Deployment",
+    "permalink": "/docs/module4-vla/real-world-deployment"
+  },
+  "next": {
+    "title": "Unity Robotics Hub Setup",
+    "permalink": "/docs/module4-vla/unity-robotics-hub-setup"
+  }
+}

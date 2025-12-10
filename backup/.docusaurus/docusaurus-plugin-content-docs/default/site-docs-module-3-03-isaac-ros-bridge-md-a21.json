@@ -1,0 +1,27 @@
+{
+  "id": "Module-3/isaac-ros-bridge",
+  "title": "Isaac ROS Bridge",
+  "description": "Learning Objectives",
+  "source": "@site/docs/Module-3/03_isaac-ros-bridge.md",
+  "sourceDirName": "Module-3",
+  "slug": "/Module-3/isaac-ros-bridge",
+  "permalink": "/docs/Module-3/isaac-ros-bridge",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module-3/03_isaac-ros-bridge.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac Sim Getting Started",
+    "permalink": "/docs/Module-3/isaac-sim-getting-started"
+  },
+  "next": {
+    "title": "Perception Pipelines",
+    "permalink": "/docs/Module-3/perception-pipelines"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "module4-vla/vla-deployment-considerations",
+  "title": "VLA Deployment Considerations",
+  "description": "Chapter 15: Production Deployment and Operational Excellence",
+  "source": "@site/docs/module4-vla/15_vla-deployment-considerations.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/vla-deployment-considerations",
+  "permalink": "/docs/module4-vla/vla-deployment-considerations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/15_vla-deployment-considerations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA Training Methods",
+    "permalink": "/docs/module4-vla/vla-training-methods"
+  },
+  "next": {
+    "title": "VLA Evaluation and Testing",
+    "permalink": "/docs/module4-vla/vla-evaluation-testing"
+  }
+}

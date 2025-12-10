@@ -1,0 +1,27 @@
+{
+  "id": "module2-gazebo-unity/robot-modeling-and-simulation",
+  "title": "Robot Modeling and Simulation",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module2-gazebo-unity/04_robot-modeling-and-simulation.md",
+  "sourceDirName": "module2-gazebo-unity",
+  "slug": "/module2-gazebo-unity/robot-modeling-and-simulation",
+  "permalink": "/docs/module2-gazebo-unity/robot-modeling-and-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2-gazebo-unity/04_robot-modeling-and-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity Robotics Hub Setup",
+    "permalink": "/docs/module2-gazebo-unity/unity-robotics-hub-setup"
+  },
+  "next": {
+    "title": "Sensor Integration and Robotics",
+    "permalink": "/docs/module2-gazebo-unity/sensor-integration-and-robotics"
+  }
+}

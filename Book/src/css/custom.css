@@ -1,0 +1,305 @@
+/**
+ * Custom CSS for Educational Book Theme
+ * High-tech color palette with blues, dark themes, and modern elements
+ */
+
+/* High-tech color palette */
+:root {
+  /* Primary colors - blues for high-tech theme */
+  --ifm-color-primary: #1a73e8;
+  --ifm-color-primary-dark: #1863cc;
+  --ifm-color-primary-darker: #175dba;
+  --ifm-color-primary-darkest: #124a96;
+  --ifm-color-primary-light: #3b89ee;
+  --ifm-color-primary-lighter: #4d94f0;
+  --ifm-color-primary-lightest: #6ea9f3;
+
+  /* Typography settings */
+  --ifm-font-family-base: 'Georgia, serif'; /* Body text - serif for readability */
+  --ifm-font-family-headings: 'Inter, sans-serif'; /* Headings - sans-serif for modern hierarchy */
+  --ifm-font-family-monospace: 'Fira Code, monospace';
+
+  /* Spacing and layout */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-global-spacing: 1rem;
+  --ifm-container-width: 1200px;
+  --ifm-container-width-xl: 1400px;
+
+  /* Book-style typography improvements */
+  --ifm-line-height-base: 1.6; /* Optimal for long-form reading */
+  --ifm-font-size-base: 17px; /* Slightly larger for readability */
+  --ifm-heading-font-weight: 600; /* Modern heading weight */
+
+  /* Content area styling */
+  --ifm-content-max-width: 800px; /* Optimal line length for reading */
+  --ifm-content-padding-vertical: 2rem;
+  --ifm-content-padding-horizontal: 2rem;
+
+  /* Reduced visual distractions */
+  --ifm-global-shadow: none;
+  --ifm-global-radius: 4px;
+
+  /* Responsive breakpoints */
+  --ifm-container-width-sm: 100%; /* Mobile */
+  --ifm-container-width-md: 768px; /* Tablet */
+  --ifm-container-width-lg: 960px; /* Desktop */
+}
+
+/* Dark mode overrides */
+[data-theme='dark'] {
+  --ifm-color-primary: #4d94f0;
+  --ifm-background-color: #0d1117;
+  --ifm-background-surface-color: #161b22;
+  --ifm-font-color-base: #f0f6fc;
+  --ifm-heading-color: #f0f6fc;
+  --ifm-color-content: #c9d1d9;
+  --ifm-color-content-secondary: #b1bac4;
+  --ifm-menu-color: #c9d1d9;
+  --ifm-menu-color-active: #f0f6fc;
+  --ifm-menu-color-background-active: rgba(56, 139, 253, 0.1);
+  --ifm-navbar-link-color: #c9d1d9;
+  --ifm-navbar-link-hover-color: #f0f6fc;
+  --ifm-footer-link-color: #c9d1d9;
+  --ifm-footer-link-hover-color: #f0f6fc;
+  --ifm-toc-border-color: #30363d;
+  --ifm-global-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Professional book reading experience styling */
+/* Remove visual distractions from content pages */
+.main-wrapper {
+  max-width: var(--ifm-container-width);
+  margin: 0 auto;
+}
+
+/* Enhanced typography for long-form reading */
+.markdown {
+  font-family: var(--ifm-font-family-base);
+  line-height: var(--ifm-line-height-base);
+  font-size: var(--ifm-font-size-base);
+}
+
+/* Heading styling with sans-serif fonts */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-family: var(--ifm-font-family-headings);
+  font-weight: var(--ifm-heading-font-weight);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Book-style content area */
+.theme-doc-markdown {
+  background-color: var(--ifm-background-surface-color);
+  padding: var(--ifm-content-padding-vertical) var(--ifm-content-padding-horizontal);
+  border-radius: var(--ifm-global-radius);
+  margin-bottom: 2rem;
+}
+
+/* Reduced sidebar visual weight */
+.sidebar {
+  border-right: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Enhanced focus for readability */
+.markdown p {
+  margin-bottom: 1.2rem;
+}
+
+.markdown ul,
+.markdown ol {
+  margin-bottom: 1.2rem;
+}
+
+/* Book-style margins and padding */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Navigation improvements */
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Code block styling */
+.prism-code {
+  border-radius: var(--ifm-global-radius);
+  padding: 1rem;
+}
+
+/* Table styling for educational content */
+.markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Blockquote styling for educational content */
+.markdown blockquote {
+  border-left: 3px solid var(--ifm-color-primary);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--ifm-color-emphasis-800);
+  font-style: italic;
+}
+
+/* Consistent spacing throughout */
+.padding-top--md {
+  padding-top: 1.5rem;
+}
+
+.padding-bottom--md {
+  padding-bottom: 1.5rem;
+}
+
+/* Footer styling */
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 576px) {
+  /* Mobile styles */
+  .main-wrapper {
+    padding: 0.5rem;
+  }
+
+  .theme-doc-markdown {
+    padding: 1rem;
+  }
+
+  .markdown {
+    font-size: 16px; /* Slightly smaller on mobile for better readability */
+    line-height: 1.5;
+  }
+
+  :root {
+    --ifm-spacing-horizontal: 1rem;
+    --ifm-global-spacing: 0.75rem;
+    --ifm-content-padding-vertical: 1rem;
+    --ifm-content-padding-horizontal: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Tablet styles */
+  .main-wrapper {
+    padding: 1rem;
+  }
+
+  .theme-doc-markdown {
+    padding: 1.5rem;
+  }
+
+  :root {
+    --ifm-spacing-horizontal: 1.25rem;
+    --ifm-global-spacing: 0.875rem;
+    --ifm-content-padding-vertical: 1.5rem;
+    --ifm-content-padding-horizontal: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Small desktop styles */
+  :root {
+    --ifm-container-width: 960px;
+  }
+}
+
+@media (min-width: 993px) {
+  /* Large desktop styles */
+  :root {
+    --ifm-container-width: 1200px;
+  }
+}
+
+/* Responsive sidebar */
+@media (max-width: 996px) {
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+  }
+}
+
+/* Responsive content max-width */
+@media (max-width: 996px) {
+  .theme-doc-markdown {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* MDX Components styling for educational content */
+.alert {
+  border-radius: var(--ifm-global-radius);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+.alert--info {
+  background-color: var(--ifm-background-surface-color);
+  border-left-color: var(--ifm-color-primary);
+}
+
+.alert--warning {
+  background-color: #fef9e7;
+  border-left-color: #f39c12;
+}
+
+[data-theme='dark'] .alert--warning {
+  background-color: #3b2d08;
+}
+
+.alert--danger {
+  background-color: #fdedec;
+  border-left-color: #e74c3c;
+}
+
+[data-theme='dark'] .alert--danger {
+  background-color: #4a2525;
+}
+
+/* MDX Code blocks */
+.codeBlockContainer {
+  margin: 1.5rem 0;
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+}
+
+/* MDX Admonitions */
+.admonition {
+  margin: 1.5rem 0;
+  border-radius: var(--ifm-global-radius);
+  padding: 1rem 1.25rem;
+}
+
+/* Responsive typography scaling */
+@media (max-width: 768px) {
+  .markdown h1 {
+    font-size: 1.75rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.5rem;
+  }
+
+  .markdown h3 {
+    font-size: 1.25rem;
+  }
+}

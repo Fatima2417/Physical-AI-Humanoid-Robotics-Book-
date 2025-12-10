@@ -1,0 +1,49 @@
+.callout {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.callout--default {
+  border-left-color: var(--ifm-color-primary);
+}
+
+.callout--info {
+  border-left-color: #2980b9;
+}
+
+.callout--success {
+  border-left-color: #27ae60;
+}
+
+.callout--warning {
+  border-left-color: #f39c12;
+}
+
+.callout--danger {
+  border-left-color: #e74c3c;
+}
+
+.calloutTitle {
+  font-family: var(--ifm-font-family-headings);
+  font-weight: var(--ifm-heading-font-weight);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.calloutContent {
+  font-family: var(--ifm-font-family-base);
+  line-height: var(--ifm-line-height-base);
+}
+
+.calloutContent p:first-child {
+  margin-top: 0;
+}
+
+.calloutContent p:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module4-vla/perception-integration",
+  "title": "Perception Integration",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4-vla/07_perception-integration.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/perception-integration",
+  "permalink": "/docs/module4-vla/perception-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/07_perception-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA Architectures",
+    "permalink": "/docs/module4-vla/vla-architectures"
+  },
+  "next": {
+    "title": "Humanoid Control Systems",
+    "permalink": "/docs/module4-vla/humanoid-control-systems"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module2-gazebo-unity/unity-robotics-hub-setup",
+  "title": "Unity Robotics Hub Setup",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module2-gazebo-unity/03_unity-robotics-hub-setup.md",
+  "sourceDirName": "module2-gazebo-unity",
+  "slug": "/module2-gazebo-unity/unity-robotics-hub-setup",
+  "permalink": "/docs/module2-gazebo-unity/unity-robotics-hub-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2-gazebo-unity/03_unity-robotics-hub-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo Classic vs Gazebo Fortress/Harmonic",
+    "permalink": "/docs/module2-gazebo-unity/gazebo-classic-vs-fortress"
+  },
+  "next": {
+    "title": "Robot Modeling and Simulation",
+    "permalink": "/docs/module2-gazebo-unity/robot-modeling-and-simulation"
+  }
+}

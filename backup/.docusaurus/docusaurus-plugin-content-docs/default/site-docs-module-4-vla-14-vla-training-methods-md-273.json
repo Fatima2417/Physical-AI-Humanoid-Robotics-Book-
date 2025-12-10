@@ -1,0 +1,25 @@
+{
+  "id": "module4-vla/vla-training-methods",
+  "title": "VLA Training Methods",
+  "description": "Chapter 14: Vision-Language-Action Training Methodologies",
+  "source": "@site/docs/module4-vla/14_vla-training-methods.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/vla-training-methods",
+  "permalink": "/docs/module4-vla/vla-training-methods",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/14_vla-training-methods.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity Robotics Hub Setup",
+    "permalink": "/docs/module4-vla/unity-robotics-hub-setup"
+  },
+  "next": {
+    "title": "VLA Deployment Considerations",
+    "permalink": "/docs/module4-vla/vla-deployment-considerations"
+  }
+}

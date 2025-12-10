@@ -1,0 +1,27 @@
+{
+  "id": "module3-isaac/perception-pipelines",
+  "title": "Perception Pipelines",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module3-isaac/04_perception-pipelines.md",
+  "sourceDirName": "module3-isaac",
+  "slug": "/module3-isaac/perception-pipelines",
+  "permalink": "/docs/module3-isaac/perception-pipelines",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module3-isaac/04_perception-pipelines.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac ROS Bridge",
+    "permalink": "/docs/module3-isaac/isaac-ros-bridge"
+  },
+  "next": {
+    "title": "Control Pipelines",
+    "permalink": "/docs/module3-isaac/control-pipelines"
+  }
+}

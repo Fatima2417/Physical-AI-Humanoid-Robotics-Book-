@@ -1,0 +1,27 @@
+{
+  "id": "Module-1/ros2-launch-files-and-composition",
+  "title": "ROS 2 Launch Files and Composition",
+  "description": "Learning Objectives",
+  "source": "@site/docs/Module-1/04_ros2-launch-files-and-composition.md",
+  "sourceDirName": "Module-1",
+  "slug": "/Module-1/ros2-launch-files-and-composition",
+  "permalink": "/docs/Module-1/ros2-launch-files-and-composition",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module-1/04_ros2-launch-files-and-composition.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Actions and Parameters",
+    "permalink": "/docs/Module-1/ros2-actions-and-parameters"
+  },
+  "next": {
+    "title": "ROS 2 Practical Workflows",
+    "permalink": "/docs/Module-1/ros2-practical-workflows"
+  }
+}

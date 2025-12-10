@@ -1,0 +1,23 @@
+{
+  "id": "intro/fundamentals-of-embodied-intelligence",
+  "title": "Fundamentals of Embodied Intelligence",
+  "description": "Learning Objectives",
+  "source": "@site/docs/intro/02_fundamentals-of-embodied-intelligence.md",
+  "sourceDirName": "intro",
+  "slug": "/intro/fundamentals-of-embodied-intelligence",
+  "permalink": "/docs/intro/fundamentals-of-embodied-intelligence",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro/02_fundamentals-of-embodied-intelligence.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Physical AI",
+    "permalink": "/docs/intro/introduction-to-physical-ai"
+  }
+}

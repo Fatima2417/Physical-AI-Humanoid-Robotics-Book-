@@ -1,0 +1,27 @@
+{
+  "id": "module4-vla/llm-cognitive-planning",
+  "title": "LLM Cognitive Planning",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4-vla/03_llm-cognitive-planning.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/llm-cognitive-planning",
+  "permalink": "/docs/module4-vla/llm-cognitive-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/03_llm-cognitive-planning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Whisper Integration",
+    "permalink": "/docs/module4-vla/whisper-integration"
+  },
+  "next": {
+    "title": "ROS 2 Action Execution",
+    "permalink": "/docs/module4-vla/ros2-action-execution"
+  }
+}

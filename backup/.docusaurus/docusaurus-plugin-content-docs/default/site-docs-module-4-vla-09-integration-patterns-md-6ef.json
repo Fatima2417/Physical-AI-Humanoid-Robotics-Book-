@@ -1,0 +1,27 @@
+{
+  "id": "module4-vla/integration-patterns",
+  "title": "Integration Patterns",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4-vla/09_integration-patterns.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/integration-patterns",
+  "permalink": "/docs/module4-vla/integration-patterns",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4-vla/09_integration-patterns.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Humanoid Control Systems",
+    "permalink": "/docs/module4-vla/humanoid-control-systems"
+  },
+  "next": {
+    "title": "VLA Communication Protocols",
+    "permalink": "/docs/module4-vla/vla-communication-protocols"
+  }
+}

@@ -1,0 +1,161 @@
+# OpenAPI 3.0 specification for Textbook Interactive Features
+openapi: 3.0.0
+info:
+  title: Physical AI & Humanoid Robotics Textbook API
+  description: API for interactive textbook features, code validation, and simulation interfaces
+  version: 1.0.0
+  license:
+    name: MIT
+    url: http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
+
+servers:
+  - url: http://localhost:3000/api
+    description: Local development server for textbook features
+
+paths:
+  /code/validate:
+    post:
+      summary: Validate textbook code examples
+      description: Validate code examples from textbook chapters for syntax and basic functionality
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                code:
+                  type: string
+                  description: Code example to validate
+                language:
+                  type: string
+                  enum: [python, cpp, urdf, launch]
+                  description: Programming language of the code
+                chapter:
+                  type: string
+                  description: Chapter identifier for context
+              required:
+                - code
+                - language
+      responses:
+        '200':
+          description: Validation results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  valid:
+                    type: boolean
+                    description: Whether the code is syntactically valid
+                  errors:
+                    type: array
+                    items:
+                      type: string
+                    description: List of validation errors
+                  warnings:
+                    type: array
+                    items:
+                      type: string
+                    description: List of validation warnings
+
+  /simulation/run:
+    post:
+      summary: Execute simulation for textbook examples
+      description: Run simulation scenarios from textbook chapters
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                scenario:
+                  type: string
+                  description: Simulation scenario identifier
+                parameters:
+                  type: object
+                  description: Simulation parameters
+                environment:
+                  type: string
+                  enum: [gazebo, unity, isaac]
+                  description: Simulation environment to use
+              required:
+                - scenario
+                - environment
+      responses:
+        '200':
+          description: Simulation execution results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    description: Whether the simulation executed successfully
+                  output:
+                    type: string
+                    description: Simulation output or log
+                  duration:
+                    type: number
+                    description: Execution time in seconds
+
+  /quiz/submit:
+    post:
+      summary: Submit quiz answers for evaluation
+      description: Submit answers to textbook quizzes for automatic evaluation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                quizId:
+                  type: string
+                  description: Unique identifier for the quiz
+                answers:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      questionId:
+                        type: string
+                      answer:
+                        type: string
+                  description: Array of question-answer pairs
+                userId:
+                  type: string
+                  description: User identifier (optional for tracking)
+              required:
+                - quizId
+                - answers
+      responses:
+        '200':
+          description: Quiz evaluation results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  score:
+                    type: number
+                    description: Score achieved (0-100)
+                  total:
+                    type: number
+                    description: Total possible score
+                  correct:
+                    type: number
+                    description: Number of correct answers
+                  feedback:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        questionId:
+                          type: string
+                        correct:
+                          type: boolean
+                        explanation:
+                          type: string

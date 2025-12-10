@@ -1,0 +1,198 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "Introduction/introduction-to-physical-ai",
+          "docs": [
+            {
+              "id": "Introduction/fundamentals-of-embodied-intelligence",
+              "path": "/docs/Introduction/fundamentals-of-embodied-intelligence",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/introduction-to-physical-ai",
+              "path": "/docs/Introduction/introduction-to-physical-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-1/ros2-actions-and-parameters",
+              "path": "/docs/Module-1/ros2-actions-and-parameters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-1/ros2-launch-files-and-composition",
+              "path": "/docs/Module-1/ros2-launch-files-and-composition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-1/ros2-nodes-topics-services",
+              "path": "/docs/Module-1/ros2-nodes-topics-services",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-1/ros2-overview",
+              "path": "/docs/Module-1/ros2-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-1/ros2-practical-workflows",
+              "path": "/docs/Module-1/ros2-practical-workflows",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-2/gazebo-classic-vs-fortress",
+              "path": "/docs/Module-2/gazebo-classic-vs-fortress",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-2/robot-modeling-and-simulation",
+              "path": "/docs/Module-2/robot-modeling-and-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-2/sensor-integration-and-robotics",
+              "path": "/docs/Module-2/sensor-integration-and-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-2/simulation-environments-overview",
+              "path": "/docs/Module-2/simulation-environments-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-2/unity-robotics-hub-setup",
+              "path": "/docs/Module-2/unity-robotics-hub-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-3/control-pipelines",
+              "path": "/docs/Module-3/control-pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-3/isaac-ros-bridge",
+              "path": "/docs/Module-3/isaac-ros-bridge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-3/isaac-sim-getting-started",
+              "path": "/docs/Module-3/isaac-sim-getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-3/nvidia-isaac-overview",
+              "path": "/docs/Module-3/nvidia-isaac-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-3/perception-pipelines",
+              "path": "/docs/Module-3/perception-pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/humanoid-control-systems",
+              "path": "/docs/Module-4/humanoid-control-systems",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/integration-patterns",
+              "path": "/docs/Module-4/integration-patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/llm-cognitive-planning",
+              "path": "/docs/Module-4/llm-cognitive-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/perception-integration",
+              "path": "/docs/Module-4/perception-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/real-world-deployment",
+              "path": "/docs/Module-4/real-world-deployment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/ros2-action-execution",
+              "path": "/docs/Module-4/ros2-action-execution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/sensor-integration-ros2",
+              "path": "/docs/Module-4/sensor-integration-ros2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/unity-robotics-hub-setup",
+              "path": "/docs/Module-4/unity-robotics-hub-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vision-language-action-overview",
+              "path": "/docs/Module-4/vision-language-action-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vla-applications-humanoids",
+              "path": "/docs/Module-4/vla-applications-humanoids",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vla-architectures",
+              "path": "/docs/Module-4/vla-architectures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vla-communication-protocols",
+              "path": "/docs/Module-4/vla-communication-protocols",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vla-deployment-considerations",
+              "path": "/docs/Module-4/vla-deployment-considerations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vla-evaluation-testing",
+              "path": "/docs/Module-4/vla-evaluation-testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vla-summary-conclusion",
+              "path": "/docs/Module-4/vla-summary-conclusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/vla-training-methods",
+              "path": "/docs/Module-4/vla-training-methods",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module-4/whisper-integration",
+              "path": "/docs/Module-4/whisper-integration",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/Introduction/introduction-to-physical-ai",
+                "label": "Introduction/introduction-to-physical-ai"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

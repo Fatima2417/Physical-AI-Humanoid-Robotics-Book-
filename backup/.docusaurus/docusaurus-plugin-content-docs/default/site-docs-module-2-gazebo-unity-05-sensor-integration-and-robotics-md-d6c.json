@@ -1,0 +1,27 @@
+{
+  "id": "module2-gazebo-unity/sensor-integration-and-robotics",
+  "title": "Sensor Integration and Robotics",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module2-gazebo-unity/05_sensor-integration-and-robotics.md",
+  "sourceDirName": "module2-gazebo-unity",
+  "slug": "/module2-gazebo-unity/sensor-integration-and-robotics",
+  "permalink": "/docs/module2-gazebo-unity/sensor-integration-and-robotics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2-gazebo-unity/05_sensor-integration-and-robotics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Robot Modeling and Simulation",
+    "permalink": "/docs/module2-gazebo-unity/robot-modeling-and-simulation"
+  },
+  "next": {
+    "title": "NVIDIA Isaac Overview",
+    "permalink": "/docs/module3-isaac/nvidia-isaac-overview"
+  }
+}

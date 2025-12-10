@@ -1,0 +1,27 @@
+{
+  "id": "Module-3/control-pipelines",
+  "title": "Control Pipelines",
+  "description": "Learning Objectives",
+  "source": "@site/docs/Module-3/05_control-pipelines.md",
+  "sourceDirName": "Module-3",
+  "slug": "/Module-3/control-pipelines",
+  "permalink": "/docs/Module-3/control-pipelines",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module-3/05_control-pipelines.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Perception Pipelines",
+    "permalink": "/docs/Module-3/perception-pipelines"
+  },
+  "next": {
+    "title": "Vision-Language-Action Overview",
+    "permalink": "/docs/Module-4/vision-language-action-overview"
+  }
+}

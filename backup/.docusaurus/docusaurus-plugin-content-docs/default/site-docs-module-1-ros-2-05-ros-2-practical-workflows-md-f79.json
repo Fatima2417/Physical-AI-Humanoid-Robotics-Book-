@@ -1,0 +1,27 @@
+{
+  "id": "module1-ros2/ros2-practical-workflows",
+  "title": "ROS 2 Practical Workflows",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module1-ros2/05_ros2-practical-workflows.md",
+  "sourceDirName": "module1-ros2",
+  "slug": "/module1-ros2/ros2-practical-workflows",
+  "permalink": "/docs/module1-ros2/ros2-practical-workflows",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module1-ros2/05_ros2-practical-workflows.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Launch Files and Composition",
+    "permalink": "/docs/module1-ros2/ros2-launch-files-and-composition"
+  },
+  "next": {
+    "title": "Simulation Environments Overview",
+    "permalink": "/docs/module2-gazebo-unity/simulation-environments-overview"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module3-isaac/isaac-sim-getting-started",
+  "title": "Isaac Sim Getting Started",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module3-isaac/02_isaac-sim-getting-started.md",
+  "sourceDirName": "module3-isaac",
+  "slug": "/module3-isaac/isaac-sim-getting-started",
+  "permalink": "/docs/module3-isaac/isaac-sim-getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module3-isaac/02_isaac-sim-getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac Overview",
+    "permalink": "/docs/module3-isaac/nvidia-isaac-overview"
+  },
+  "next": {
+    "title": "Isaac ROS Bridge",
+    "permalink": "/docs/module3-isaac/isaac-ros-bridge"
+  }
+}

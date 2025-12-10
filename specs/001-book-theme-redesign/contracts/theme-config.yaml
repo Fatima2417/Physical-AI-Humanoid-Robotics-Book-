@@ -1,0 +1,88 @@
+# Theme Configuration Contract
+
+## Purpose
+Defines the interface between the educational book theme and the Docusaurus system.
+
+## Configuration Interface
+
+### Theme Settings
+```javascript
+{
+  "themeConfig": {
+    "navbar": {
+      "title": "Educational Book Title",
+      "logo": {
+        "alt": "Book Logo",
+        "src": "/img/logo.svg"
+      }
+    },
+    "footer": {
+      "style": "dark",
+      "links": [],
+      "copyright": "Copyright text"
+    },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true
+    },
+    " prism": {
+      "theme": "default",
+      "darkTheme": "okaidia"
+    }
+  }
+}
+```
+
+### Custom CSS Variables
+```css
+:root {
+  /* High-tech color palette */
+  --ifm-color-primary: #1a73e8;
+  --ifm-color-primary-dark: #1863cc;
+  --ifm-color-primary-darker: #175dba;
+  --ifm-color-primary-darkest: #124a96;
+  --ifm-color-primary-light: #3b89ee;
+  --ifm-color-primary-lighter: #4d94f0;
+  --ifm-color-primary-lightest: #6ea9f3;
+
+  /* Typography settings */
+  --ifm-font-family-base: 'Georgia, serif'; /* Body text */
+  --ifm-font-family-monospace: 'Fira Code, monospace';
+  --ifm-heading-font-family: 'Inter, sans-serif'; /* Headings */
+
+  /* Spacing and layout */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-global-spacing: 1rem;
+  --ifm-container-width: 1200px;
+  --ifm-container-width-xl: 1400px;
+}
+
+[data-theme='dark'] {
+  /* Dark mode overrides */
+  --ifm-color-primary: #4d94f0;
+  --ifm-background-color: #0d1117;
+  --ifm-background-surface-color: #161b22;
+  --ifm-font-color-base: #f0f6fc;
+}
+```
+
+### Sidebar Navigation Contract
+```javascript
+// sidebars.js structure
+module.exports = {
+  docs: [
+    {
+      type: 'category',
+      label: 'Section Title',
+      collapsed: false, // Major sections visible by default
+      collapsible: true,
+      items: [
+        // Subsections remain visible
+        'page-id',
+        'another-page'
+      ]
+    }
+  ]
+};
+```
