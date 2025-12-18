@@ -8,7 +8,7 @@ export default function Layout(props) {
       <DefaultLayout {...props}>
         {props.children}
       </DefaultLayout>
-      <RagChatbot backendUrl="http://localhost:8001" />
+      <RagChatbot backendUrl="http://localhost:9000" />
     </>
   );
 }
