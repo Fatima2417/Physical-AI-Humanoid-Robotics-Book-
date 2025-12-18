@@ -13,7 +13,7 @@ const config = {
   // Main GitHub Pages URL (no subpath!)
   url: 'https://Fatima2417.github.io', 
   // Project subpath (must match your repo name, include trailing slash)
-  baseUrl: '/Physical-AI-Humanoid-Robotics-Book-/',
+  baseUrl: '/',
 
   // GitHub pages deployment config
   organizationName: 'Fatima2417', // Your GitHub username
