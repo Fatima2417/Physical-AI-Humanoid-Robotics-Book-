@@ -11,22 +11,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-organization.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<organization-name>/'
-  baseUrl: '/physical-ai-textbook',
+  url: 'https://github.com/Fatima2417.io', // Replace with your GitHub username
+  baseUrl: '/physical-ai-textbook/', // Must match your repo name
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-textbook', // Usually your repo name.
+  // GitHub pages deployment config
+  organizationName: 'Fatima2417', // Replace with your GitHub username
+  projectName: 'physical-ai-textbook', // Repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -39,10 +33,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-organization/physical-ai-textbook/tree/main/',
+            'https://github.com/YOUR_GITHUB_USERNAME/physical-ai-textbook/tree/main/',
         },
         blog: false, // Disable blog plugin
         theme: {
@@ -55,7 +47,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Physical AI Textbook',
@@ -71,7 +62,7 @@ const config = {
             label: 'Textbook',
           },
           {
-            href: 'https://github.com/your-organization/physical-ai-textbook',
+            href: 'https://github.com/YOUR_GITHUB_USERNAME/physical-ai-textbook',
             label: 'GitHub',
             position: 'right',
           },
@@ -85,7 +76,8 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/intro',
+                to: '/docs/Introduction/fundamentals-of-embodied-intelligence', 
+                // Change this path to your first doc file
               },
             ],
           },
@@ -107,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-organization/physical-ai-textbook',
+                href: 'https://github.com/YOUR_GITHUB_USERNAME/physical-ai-textbook',
               },
             ],
           },

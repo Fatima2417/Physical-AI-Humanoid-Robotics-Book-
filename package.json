@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@docusaurus/theme-classic": "^3.9.2",
+    "prismjs": "^1.30.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
